@@ -1,0 +1,38 @@
+.response-container {
+  margin: 25px auto;
+  max-width: 385px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  border-radius: 20px;
+  height: 450px;
+
+  svg {
+    margin: 35px auto;
+  }
+
+  h3 {
+    color: $color-orange1;
+    background: hsl(214, 4%, 33%);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+  }
+
+  #tothanks {
+    margin-bottom: 10px;
+    color: white;
+  }
+  p {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 5px 20px;
+    color: hsl(217, 12%, 63%);
+    line-height: 23px;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Overpass";
+  src: url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+}
+
+$color-orange1: hsl(25, 97%, 53%);
+$color-back: hsl(212, 19%, 29%);
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: hsl(216, 12%, 8%);
+  color: white;
+  font-size: 15px;
+  font-family: "Overpass";
+}

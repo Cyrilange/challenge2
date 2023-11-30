@@ -1,0 +1,79 @@
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  padding: 30px;
+  border-radius: 25px;
+  font-family: "Overpass";
+  i {
+    padding: 15px;
+    border-radius: 50%;
+    background: $color-back;
+    margin: 1px 0;
+    color: hsl(25, 97%, 53%);
+  }
+
+  h2 {
+    margin: 15px 0;
+    padding: 5px 0;
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+
+  p {
+    color: hsl(217, 12%, 63%);
+    line-height: 23px;
+    font-weight: 400;
+  }
+
+  .stars {
+    margin: 25px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: hsl(217, 12%, 63%);
+
+    li {
+      padding: 13px 18px;
+      border-radius: 50%;
+      background: $color-back;
+      cursor: pointer;
+      transition: 2s ease;
+
+      &:hover {
+        background: hsl(45, 8%, 71%);
+        color: white;
+      }
+
+      &:active {
+        background: $color-orange1;
+        color: white;
+      }
+    }
+  }
+}
+
+.navigation {
+  margin: 0 0 0 7px;
+  border: 0 none;
+
+  border-radius: 20px;
+  padding: 12px 110px;
+  background: $color-orange1;
+  color: white;
+  cursor: pointer;
+  outline: 0;
+  box-shadow: none;
+  letter-spacing: 1px;
+  transition: 0.5s ease;
+
+  &:active {
+    background: white;
+    color: $color-orange1;
+  }
+}
